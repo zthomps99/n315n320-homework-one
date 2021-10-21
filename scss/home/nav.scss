@@ -1,0 +1,29 @@
+.navHolder {
+  margin: 0 auto;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+
+    span {
+      padding: 20px;
+    }
+
+    a {
+      float: left;
+      text-decoration: none;
+      font-size: 14px;
+      color: rgb(31, 29, 29);
+      font-weight: lighter;
+      font-variant: small-caps;
+    }
+  }
+
+  .navLogo {
+    float: left;
+    width: 75%;
+    text-align: left;
+  }
+}

@@ -1,0 +1,86 @@
+.aboutWrapper {
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  position: relative;
+
+  .imageRow {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 800px;
+      height: 100%;
+    }
+
+    .imageAbout {
+      margin-top: -220px;
+      width: 20%;
+      height: 500px;
+      overflow: hidden;
+
+      h1 {
+        padding-top: 220px;
+        text-align: center;
+        font-size: 55px;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 535px;
+      }
+    }
+
+    .imageAboutTwo {
+      margin-top: 220px;
+      width: 25%;
+      height: 500px;
+      overflow: hidden;
+    }
+  }
+
+  .aboutButton {
+    text-align: center;
+    margin-top: 40px;
+
+    button {
+      width: 130px;
+      height: 35px;
+      border: 1px solid black;
+      letter-spacing: 2px;
+      font-weight: lighter;
+      font-variant: small-caps;
+    }
+  }
+
+  .aboutOwner {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .ownerImg {
+      width: 90px;
+      height: 90px;
+      margin-right: 10px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 60px;
+        object-fit: cover;
+      }
+    }
+
+    .aboutInfo {
+      margin-top: 50px;
+      width: 600px;
+      height: 200px;
+
+      p {
+        padding: 35px;
+        font-style: italic;
+      }
+    }
+  }
+}
